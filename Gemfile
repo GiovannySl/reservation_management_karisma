@@ -63,3 +63,5 @@ end
 gem 'mongoid', '~> 7.0'
 # Authentication solution
 gem 'devise', '~> 4.4', '>= 4.4.1'
+
+gem 'webpacker', '~> 3.3'
