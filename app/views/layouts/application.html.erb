@@ -9,6 +9,10 @@
   </head>
 
   <body>
+    <% unless user_signed_in? %>
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+    <% end %>
     <%= yield %>
   </body>
 </html>
